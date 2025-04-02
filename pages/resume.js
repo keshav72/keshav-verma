@@ -20,7 +20,7 @@ export default function Resume() {
 
         {/* Embed HTML Resume */}
         <iframe
-          src="/resume.html"
+          src="/resume_keshav.html"
           title="Keshav Verma Resume"
           className="w-full h-[1080px] border border-gray-300"
         ></iframe>

@@ -97,7 +97,7 @@ export default function Portfolio() {
                 "Inspected and tested turbine control panels for quality compliance.",
                 "Researched cloud-based data sharing protocols for secure communication.",
             ]}
-            img="/projects/mhps.jpg"
+            img="/projects/mhps.png"
             />
         </div>
         </section>
