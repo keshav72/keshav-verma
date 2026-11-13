@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 360px;
+}
 
 html {
   scroll-behavior: smooth;
@@ -8,4 +10,10 @@ html {
 
 body {
   @apply bg-white text-gray-900 font-sans;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
