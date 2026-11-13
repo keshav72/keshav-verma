@@ -98,7 +98,7 @@ export default function Portfolio() {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold mb-4">Work Portfolio</h1>
         <p className="text-lg mb-10 text-gray-600">
-          My work in the professional world and during my academic journey. Client names are kept private.
+          My work in the professional world and during my academic journey.
         </p>
 
         <section className="mb-16">
