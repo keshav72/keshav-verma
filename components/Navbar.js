@@ -9,7 +9,7 @@ const navLinks = [
   { name: 'Profile', href: '/profile' },
   { name: 'Resume', href: '/resume' },
   { name: 'Testimonials', href: '/testimonials' },
-  { name: 'Life', href: '/life' },
+  // { name: 'Life', href: '/life' }, // hidden for now; see SHOW_LIFE_PAGE in pages/life.js
   { name: 'Contact', href: '/contact' },
 ];
 
