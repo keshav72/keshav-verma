@@ -50,7 +50,7 @@ export default function AboutSection() {
 
           <p className="text-lg leading-relaxed mb-4">
             Most of what I build sits between strategy and systems: <strong>rank-based bidding</strong>,
-            automation rules, multi-agent media planning, alerting, and <strong>GobsIQ</strong>, an AI advisor
+            automation rules, multi-agent media planning, alerting, and <strong>GobsIQ</strong>, an AI agent
             that answers the questions my CSMs used to answer by hand.
           </p>
 
