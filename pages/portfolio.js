@@ -74,7 +74,7 @@ const gobblecubeWork = [
   {
     title: 'Category Share Gains for Brands',
     bullets: [
-      'Global snacks brand: category share up from 46.1% to 50.5% in about 10 weeks, now owning over half the category.',
+      'Global snacks brand (category leader): grew its category share by a further 4.4 pp in about 10 weeks.',
       'Beverage brand: share up 1.2 pp in 7 weeks; sales grew 17.8% against category growth of 7.5%.',
       'FMCG brand: share up 2.0 pp quarter on quarter; sales grew 52.6%, about 6× the category.',
     ],
