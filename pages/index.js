@@ -1,14 +1,12 @@
-import dynamic from 'next/dynamic';
-
-const AboutSection = dynamic(() => import('./about'));
-const ExperienceSection = dynamic(() => import('./experience'));
-const ContactFooter = dynamic(() => import('../components/sections/ContactFooter'));
+import AboutSection from '../components/sections/AboutSection';
+import ExperienceTimeline from '../components/sections/ExperienceTimeline';
+import ContactFooter from '../components/sections/ContactFooter';
 
 export default function Home() {
   return (
     <main className="bg-white text-gray-800">
       <AboutSection />
-      <ExperienceSection />
+      <ExperienceTimeline />
       <ContactFooter />
     </main>
   );

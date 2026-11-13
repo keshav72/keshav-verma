@@ -4,10 +4,9 @@ export default function Resume() {
   return (
     <>
       <Head>
-        <title>Keshav Verma – Resume</title>
+        <title>Keshav Verma | Resume</title>
       </Head>
       <div className="bg-white p-6 max-w-4xl mx-auto">
-        {/* Download Button */}
         <div className="flex justify-end mb-4">
           <a
             href="/Keshav_Verma_Resume.pdf"
@@ -18,12 +17,11 @@ export default function Resume() {
           </a>
         </div>
 
-        {/* Embed HTML Resume */}
         <iframe
           src="/resume_keshav.html"
           title="Keshav Verma Resume"
-          className="w-full h-[1080px] border border-gray-300"
-        ></iframe>
+          className="w-full h-[2420px] border border-gray-300"
+        />
       </div>
     </>
   );
