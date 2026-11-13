@@ -63,9 +63,9 @@ const gobblecubeWork = [
   {
     title: 'Monitoring and Alerting for CSMs',
     bullets: [
-      'Daily health checks on spend, pacing, rank, availability and automation, with P0/P1/P2 severity tiers.',
-      'Rank Agent brand-health pulse flags activity drops, bids stuck at max and rulesets that fail repeatedly.',
-      'Keyword-visibility alerts ship with ready-to-upload budget and bid files, so fixes take minutes.',
+      'Daily health checks across spend, pacing, visibility, stock and automation for every account.',
+      'Alerts sorted by severity, so the team fixes what matters most first.',
+      'Each alert comes with an owner and a clear next step, so issues are resolved before brands notice.',
     ],
     tags: ['Monitoring', 'Slack alerts', 'Ops'],
     img: '/projects/gobblecube/monitoring.svg',
@@ -134,7 +134,7 @@ export default function Portfolio() {
                 'Built a lead-scoring framework from product intent, behaviour and firmographics.',
                 'Designed product-qualified lead signals and the sales hand-off workflow.',
               ]}
-              img="/projects/project1.jpg"
+              img="/projects/nanonets/crm-pipeline.svg"
             />
             <PortfolioCard
               title="Inbound + SEO Initiatives"
@@ -143,7 +143,7 @@ export default function Portfolio() {
                 'Ran outbound email and LinkedIn programmes for defined ICP segments.',
                 'Built mid-funnel workflows to speed up lead conversion.',
               ]}
-              img="/projects/project2.jpg"
+              img="/projects/nanonets/inbound-seo.svg"
             />
             <PortfolioCard
               title="Email & Paid Campaigns"
@@ -152,7 +152,7 @@ export default function Portfolio() {
                 'Managed Google Ads for high-intent, ROI-focused keywords.',
                 'Built an automated SDR call-assist workflow and sales enablement collateral.',
               ]}
-              img="/projects/project3.jpg"
+              img="/projects/nanonets/email-paid.svg"
             />
           </div>
 
