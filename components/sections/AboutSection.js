@@ -66,19 +66,19 @@ export default function AboutSection() {
           </p>
 
           <div className="flex flex-wrap gap-3 mt-8">
-            <Link href="/portfolio" className="bg-gray-800 text-white px-5 py-2 rounded-md hover:bg-gray-700 transition">
+            <Link href="/portfolio" className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
               See my work
             </Link>
             <Link
               href="/experience"
-              className="border border-gray-800 text-gray-800 px-5 py-2 rounded-md hover:bg-gray-100 transition"
+              className="border border-gray-800 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-100 transition"
             >
-              View my experience
+              View experience
             </Link>
             <a
               href="/Keshav_Verma_Resume.pdf"
               download
-              className="border border-gray-800 text-gray-800 px-5 py-2 rounded-md hover:bg-gray-100 transition"
+              className="border border-gray-800 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-100 transition"
             >
               Download resume
             </a>
