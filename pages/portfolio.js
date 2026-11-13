@@ -34,7 +34,7 @@ const gobblecubeWork = [
     title: 'Automation Rules Engine',
     bullets: [
       'Rulesets for dayparting, budget pacing, bid guardrails and ROAS-based pausing, run on live campaigns.',
-      '56,437 automated actions at 98.8% success in a single enterprise pilot, including 3,000+ intraday pacing actions.',
+      'A product that supports 1 million+ automated actions daily across 150 brands, with a 99.6% accuracy rate.',
       'Availability-linked rules for a global beauty company: shift spend by on-shelf availability and switch to a backup SKU when the hero goes out of stock.',
       'Cut manual campaign-operations time by 80%+.',
     ],
