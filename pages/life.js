@@ -11,7 +11,12 @@ import 'swiper/css/pagination';
 const IMAGE_EXT = /\.(jpe?g|png|webp|avif)$/i;
 const ORDER = ['maldives', 'thailand']; // listed first, in this order; any other folders follow alphabetically
 
+// Set to true to show the Life page again (also restore the 'Life' link in components/Navbar.js).
+const SHOW_LIFE_PAGE = false;
+
 export async function getStaticProps() {
+  if (!SHOW_LIFE_PAGE) return { notFound: true };
+
   const root = path.join(process.cwd(), 'public', 'life');
   const folders = fs
     .readdirSync(root, { withFileTypes: true })
