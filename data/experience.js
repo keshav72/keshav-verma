@@ -10,7 +10,7 @@ const experience = [
         title: 'Head of Customer Success',
         duration: 'May 2026 – Present',
         points: [
-          'Lead Customer Success across <strong>Enterprise and D2C tiers</strong>, including a book of about <strong>75 enterprise accounts</strong>; set CSM cadences, monthly business reviews and a weekly leadership update.',
+          'Lead Customer Success across <strong>Enterprise and D2C tiers</strong>, including a book of <strong>12 enterprise accounts</strong>; set CSM cadences, monthly business reviews and a weekly leadership update.',
           'Turning what worked across accounts into <strong>standard performance playbooks</strong>: decision trees built with product so every business goal (share, ROAS, launch) has a v1 playbook.',
           'Built <strong>GobsIQ</strong> with my team, an AI agent that answers ad hoc performance questions (root causes, reports, data asks) so CSMs spend their time on strategy.',
           'Set up <strong>severity-tiered monitoring and alerting</strong> for automation, Rank Agent and ruleset failures, so issues reach the right CSM before the brand notices.',
