@@ -84,7 +84,7 @@ const gobblecubeWork = [
     title: 'Customer Success Operating Model',
     bullets: [
       'Structured the CS team into Enterprise and D2C tiers, with capacity planning and hiring thresholds.',
-      'Account tracker for about 75 enterprise accounts covering billing, usage, engagement model and governance.',
+      'Account tracker for 12 enterprise accounts covering billing, usage, engagement model and governance.',
       'Standard playbooks per business goal, built from what worked across accounts.',
     ],
     tags: ['Leadership', 'CS ops', 'Governance'],
