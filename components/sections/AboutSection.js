@@ -69,6 +69,12 @@ export default function AboutSection() {
             <Link href="/portfolio" className="bg-gray-800 text-white px-5 py-2 rounded-md hover:bg-gray-700 transition">
               See my work
             </Link>
+            <Link
+              href="/experience"
+              className="border border-gray-800 text-gray-800 px-5 py-2 rounded-md hover:bg-gray-100 transition"
+            >
+              View my experience
+            </Link>
             <a
               href="/Keshav_Verma_Resume.pdf"
               download
