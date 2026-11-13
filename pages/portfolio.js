@@ -51,7 +51,7 @@ const gobblecubeWork = [
     img: '/projects/gobblecube/media-planner.svg',
   },
   {
-    title: 'GobsIQ: AI Advisor for Performance Marketing',
+    title: 'GobsIQ: AI Agent for Performance Marketing',
     bullets: [
       'Built with my team to answer the ad hoc questions that used to fall on CSMs: root causes, reports and data asks.',
       'Root-cause frameworks for ROAS, CPM, market share, availability and Rank Agent performance, tested against a CSM question bank.',
