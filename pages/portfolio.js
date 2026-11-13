@@ -9,11 +9,12 @@ const gobblecubeStats = [
 
 const gobblecubeWork = [
   {
-    title: 'Building the Performance-Marketing Line',
+    title: 'Building the Performance Marketing Vertical',
     bullets: [
       'Shaped the strategy, go-to-market motion, customer proposition and operating model for a new product line.',
       'Scaled it to ₹1 Cr ARR and 150 brands across enterprise FMCG and D2C.',
       'Built a product-led motion for D2C brands that turns self-serve adoption into upsell.',
+      'Built and led a 16-member cross-functional team across performance operations, analytics and growth, supporting ₹250 Cr+ in monthly ad budgets.',
     ],
     tags: ['GTM', 'Growth', 'Operating model'],
     img: '/projects/gobblecube/business-line.svg',
