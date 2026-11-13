@@ -1,258 +1,163 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Keshav Verma – Growth Resume</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Inter Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-  <style>
-    body {
-      font-family: 'Helvetica', sans-serif;
-      font-size: 0.65rem; /* 13px */
-      line-height: 1.5;     /* Compact but readable */
-      letter-spacing: 0.01rem;
-    }
-  
-    .subheading {
-      font-weight: 600;
-      color: #6B7280;
-      font-size: 0.875rem;
-    }
-  
-    h1 {
-      font-size: 1.25rem; /* 20px */
-      font-weight: 800;
-    }
-  
-    h2 {
-      font-size: 1.5rem; /* 16px */
-      font-weight: 700;
-      text-align: center;
-    }
-  
-    .job-header {
-      display: grid;
-      grid-template-columns: auto 1fr auto;
-      gap: 1rem;
-      align-items: center;
-    }
-  
-    .job-details {
-      text-align: right;
-      font-size: 0.75rem; /* 12px */
-      color: #374151;
-      line-height: 1.1rem;
-    }
-  
-    .job-logo {
-      width: 40px;
-      height: 40px;
-      object-fit: contain;
-      margin-top: 2px;
-    }
-
-    .college-logo {
-      width: 30px;
-      height: 30px;
-      object-fit: contain;
-      margin-top: 2px;
-    }
-  
-    ul li {
-      margin-bottom: 0.25rem;
-    }
-  
-    section {
-      margin-bottom: 1rem;
-    }
-  </style>
-  
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Keshav Verma | Founding Growth Lead</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0; background:#eef0f2; color:#171717; font-family:Arial, Helvetica, sans-serif; font-size:10pt; line-height:1.38; }
+  .toolbar { width:210mm; margin:12px auto 8px; text-align:right; }
+  .toolbar button { background:#1c1c1c; color:#fff; border:0; border-radius:3px; padding:9px 14px; font-weight:bold; cursor:pointer; }
+  .page { width:210mm; min-height:297mm; margin:0 auto 12px; padding:12mm 17mm 11mm; background:#fff; box-shadow:0 2px 12px #00000012; overflow:visible; position:relative; }
+  header { text-align:center; margin:0 0 16px; }
+  h1 { font-family:Georgia, 'Times New Roman', serif; font-size:24pt; line-height:1.08; margin:0 0 3px; font-weight:700; }
+  .tagline { color:#697579; font-size:11.2pt; font-weight:600; margin:0 0 5px; }
+  .contact { font-size:8.8pt; color:#303030; line-height:1.4; }
+  a { color:inherit; text-decoration:none; }
+  h2 { font-family:Georgia, 'Times New Roman', serif; text-align:center; font-weight:400; font-size:13pt; margin:14px 0 8px; padding-bottom:6px; border-bottom:1px solid #333; }
+  .entry { margin:0 0 11px; }
+  .entry-head { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+  .org { color:#758084; font-size:11.2pt; font-weight:600; }
+  .location { color:#333; font-size:8.8pt; text-align:right; white-space:nowrap; }
+  .role { font-size:9.4pt; font-weight:600; margin:2px 0 1px; }
+  .date { font-size:8.8pt; text-align:right; color:#333; white-space:nowrap; }
+  .meta-row { display:flex; justify-content:space-between; gap:12px; }
+  ul { margin:4px 0 0 16px; padding:0; }
+  li { margin:3.2px 0; padding-left:1px; }
+  p { margin:3px 0 5px; }
+  .summary { line-height:1.42; }
+  .skills p { margin:4px 0; line-height:1.4; }
+  .label { font-weight:bold; }
+  .education { margin:0 0 7px; }
+  .education .org { font-size:10.5pt; }
+  .small { font-size:8.8pt; }
+  .page-no { position:absolute; bottom:6mm; right:17mm; color:#777; font-size:8pt; }
+  @page { size:A4; margin:0; }
+  @media print {
+    body { background:#fff; font-size:9.2pt; }
+    .page { min-height:297mm; }
+    .toolbar { display:none; }
+    .page { margin:0; box-shadow:none; page-break-after:always; break-after:page; }
+    .page:last-child { page-break-after:auto; break-after:auto; }
+  }
+  @media screen and (max-width:800px) {
+    .toolbar,.page { width:100%; }
+    .page { height:auto; min-height:297mm; padding:22px; overflow:visible; }
+    .entry-head,.meta-row { gap:6px; }
+  }
+</style>
 </head>
-<body class="bg-white text-gray-900 p-6 max-w-3xl mx-auto leading-relaxed">
-
-  <!-- Header -->
-<div class="text-center mb-4">
-  <h1 class="text-2xl font-bold uppercase">Keshav Verma</h1>
-
-  <div class="flex justify-center flex-wrap gap-4 text-sm text-gray-700 mt-2 items-center">
-
-    <!-- Email -->
-    <a href="mailto:keshavverma310896@gmail.com" class="flex items-center gap-1 hover:text-blue-600">
-      <i class="fas fa-envelope"></i> Email
-    </a>
-
-    <!-- Phone -->
-    <div class="flex items-center gap-1">
-      <i class="fas fa-phone-alt"></i> +91-9453 99 4643 
-    </div>
-
-    <!-- LinkedIn -->
-    <a href="https://linkedin.com/in/keshav-verma-iitk" target="_blank" class="flex items-center gap-1 hover:text-blue-600">
-      <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-
-    <!-- GitHub -->
-    <a href="https://github.com/keshav72" target="_blank" class="flex items-center gap-1 hover:text-blue-600">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-
-    <!-- Website -->
-    <a href="https://keshav-verma.vercel.app/" target="_blank" class="flex items-center gap-1 hover:text-blue-600">
-      <i class="fas fa-globe"></i> Website
-    </a>
-
-    <!-- Location -->
-    <div class="flex items-center gap-1">
-      <i class="fas fa-map-marker-alt"></i> Gurugram, India
-    </div>
-
-  </div>
+<body>
+<div class="toolbar"><button onclick="window.print()">Print / Save as PDF</button></div>
+<section class="page">
+<header>
+<h1>KESHAV VERMA</h1>
+<p class="tagline">Growth Leader | B2B SaaS · AI · GTM · Revenue &amp; Funnel Growth</p>
+<p class="contact">Gurugram, India  •  +91-9453 99 4643  •  keshavverma310896@gmail.com<br/>
+  LinkedIn: <a href="https://www.linkedin.com/in/keshav-verma-iitk/">linkedin.com/in/keshav-verma-iitk/</a>  •  Portfolio: <a href="https://keshav-verma.vercel.app/">keshav-verma.vercel.app</a></p>
+</header>
+<h2>Summary</h2>
+<p class="summary">Growth leader with 6+ years across AI SaaS, B2B technology and financial-services consulting. Experienced in PLG and self-serve growth, demand generation, paid acquisition, CRM automation and funnel experimentation. At GobbleCube, scaled a performance-marketing business from inception to ₹1 Cr ARR and 150 brands, while leading a 16-member team and supporting portfolios with ₹250 Cr+ in monthly Q-commerce and E-commerce ad budgets. At Nanonets, doubled demo conversions through lifecycle automation and sustained experimentation. Brings strong analytical skills in SQL, Python and AI-enabled growth workflows.</p>
+<h2>Experience</h2>
+<div class="entry">
+<div class="entry-head">
+<div class="org">GobbleCube</div><div class="location">Gurugram, India</div>
 </div>
-
-  <!-- Summary -->
-  <section class="mb-4">
-    <h2 class="font-bold border-b border-gray-400 text-base mb-1">Summary</h2>
-    <p>
-      I am a Strategic Growth Professional with over 4 years of experience in driving inbound and paid marketing,
-      CRM automation, and analytics within the SaaS and fintech sectors. I excel at orchestrating multi-channel
-      campaigns and employing data-driven strategies to enhance lead conversion and sales outcomes. Currently,
-      I lead full-funnel growth initiatives at an innovative AI startup backed by Y Combinator.
-    </p>
-  </section>
-
-  <!-- Education -->
-  <section class="mb-4">
-    <h2 class="font-bold border-b border-gray-400 text-base mb-1">Education</h2>
-    <div class="job-header mb-1">
-      
-      <!-- IITK Logo -->
-      <img src="https://www.iitk.ac.in/new/images/page-images/logo/redlogo.jpg" alt="IIT Kanpur Logo" class="college-logo">
-
-      <!-- Institute & Degree -->
-      <div>
-        <div class="font-semibold text-xs text-gray-800">IIT Kanpur</div>
-        <div class="text-xs text-gray-600">B.Tech Electrical Engineering and Mechanical Engineering</div>
-      </div>
-
-      <!-- Location & Duration -->
-      <div class="job-details">
-        <div>Kanpur, India</div>
-        <div>06/2015 – 05/2020</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="mb-4">
-    <h2 class="font-bold border-b border-gray-400 text-base mb-1">Experience</h2>
-
-    <!-- Nanonets -->
-    <div class="mb-3">
-      <div class="job-header mb-1">
-        <img src="https://cdn.prod.website-files.com/602f5458a0b1d868c6c84d5b/60307e489ca8621554af197d_logo2.webp" alt="Nanonets Logo" class="job-logo">
-        <div>
-          <div class="font-semibold text-sm text-gray-800">Nanonets (YC’17)</div>
-          <div class="text-xs text-gray-600 font-medium">Growth Lead</div>
-        </div>
-        <div class="job-details">
-          <div>San Francisco (Remote)</div>
-          <div>08/2023 – Present</div>
-        </div>
-      </div>
-      <ul class="list-disc ml-5 text-gray-800">
-        <li>Own end-to-end inbound growth strategy across <strong>email campaigns, paid ads, CRM automation, and lead conversion operations.</strong></strong></li>
-        <li>Developed personalized, automated workflows using LLMs, Python and CRM, reducing manual processes across funnel.</li>
-        <li>Built and scaled <strong>lead scoring models</strong> based on intent and activites signals, <strong>improving MQL-to-SQL conversion by 25%.</strong></li>
-        <li>Led performance analytics across the funnel via real-time dashboards, uncovering key drop-offs and optimization levers.</li>
-        <li>Managed ROI-driven Google Ads campaigns, <strong>reducing cost per qualified lead by 28%.</strong></li>
-        <li>Implemented call-based conversion operations, improving follow-up efficiency and boosting demo bookings.</li>
-        <li>Delivered high-impact sales enablement materials (battle cards and pitch decks), contributing to an <strong>18% lift in call-to-close rates.</strong></li>
-      </ul>
-    </div>
-
-    <!-- Indus Insights -->
-    <div class="mb-3">
-      <div class="job-header mb-1">
-        <img src="http://indusinsights.wpengine.com/wp-content/uploads/2013/07/logo.gif" alt="Indus Logo" class="job-logo">
-        <div>
-          <div class="font-semibold text-sm text-gray-800">Indus Insights</div>
-          <div class="text-xs text-gray-600 font-medium">Senior Associate Consultant</div>
-        </div>
-        <div class="job-details">
-          <div>Gurugram, India</div>
-          <div>08/2020 – 08/2023</div>
-        </div>
-      </div>
-      <ul class="list-disc ml-5 text-gray-800">
-        <li>Led strategic analytics for fintech clients across credit policy design, bad debt reduction, and marketing segmentation</li>
-        <li>Built <strong>IRB-compliant credit risk models and loan performance forecasting</strong> tools using Python, SQL, Tableau, and R</li>
-        <li>Developed a GUI tool for <strong>credit line optimization</strong> and implemented bad debt strategies, saving ~$7M and improving profitability</li>
-        <li>Conducted geo-segmentation and churn analysis to optimize campaign targeting and retention strategies</li>
-        <li>Trained new hires, led client presentations to C-suite, and conducted model documentation aligned with <strong>EBA and IFRS9 standards</strong></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Mitsubishi Hitachi Power Systems -->
-<div class="mb-3">
-  <div class="job-header mb-1">
-    <img src="https://www.powerengineeringint.com/wp-content/uploads/2015/12/MHPS-logo.jpg" alt="MHPS Logo" class="job-logo">
-    <div>
-      <div class="font-semibold text-sm text-gray-800">Mitsubishi Hitachi Power Systems</div>
-      <div class="text-xs text-gray-600 font-medium">Control Systems Intern</div>
-    </div>
-    <div class="job-details">
-      <div>Takasagochō, Japan</div>
-      <div>05/2019 – 06/2019</div>
-    </div>
-  </div>
-  <ul class="list-disc ml-5 text-gray-800">
-    <li>Developed and tested control logic systems for industrial turbines.</li>
-    <li>Improved cloud-based data protocols and automation reliability.</li>
-  </ul>
+<div class="meta-row"><div class="role">Senior Growth Manager | Growth, Performance Marketing &amp; GTM</div><div class="date">May 2025 – Present</div></div>
+<ul>
+<li>Built the performance-marketing business line from zero, shaping its growth strategy, go-to-market motion, customer proposition and operating model; scaled it to <b>₹1 Cr ARR</b> and grew the customer base from 0 to <b>150 brands</b>.</li>
+<li>Manage a <b>16-member cross-functional team</b> across performance operations, analytics and growth; set team structures, operating rhythms and performance-management processes.</li>
+<li>Oversee growth strategy for enterprise and D2C portfolios managing <b>₹250 Cr+ in monthly advertising budgets</b> across Q-commerce and E-commerce.</li>
+<li>Translate business targets into full-funnel media plans spanning portfolio goals, acquisition, product and city prioritisation, keyword strategy, dayparting, budget pacing, ROAS and conversion performance.</li>
+<li>Established a product-led growth (PLG) motion for D2C brands, using self-serve adoption and demonstrated value to identify and convert upsell opportunities into GobbleCube’s performance-marketing product.</li>
+<li>Use SQL and product-engagement data to diagnose activation friction, shape experiments with product and engineering, and measure progression from first interaction to qualified opportunity and paid customer.</li>
+<li>Launched performance analytics, share-of-voice measurement, rules-based optimisation, automated bidding and rank agents with product and engineering; hyperlocal campaigns and rank agents improved ROAS by <b>90%</b> for a large FMCG brand.</li>
+<li>Applied AI-first analysis and LLM workflows to help brands run A/B experiments and reduce manual campaign-operations time by <b>80%+</b>, while surfacing performance and investment opportunities.</li>
+<li>Accelerate enterprise adoption and account expansion alongside sales and customer success, supporting programmes for <b>HUL, L’Oréal, Tata Consumer, Philips, ITC and GCPL</b>.</li>
+<li>Improved market share across D2C and enterprise brand portfolios, contributing to stronger business outcomes and expansion into additional categories and engagements.</li>
+</ul>
 </div>
-
-<!-- Skills & Certifications -->
-<section class="mb-4 space-y-4">
-  <div>
-    <h2 class="font-bold border-b border-gray-400 text-base mb-1">Skills</h2>
-    <p>Growth Marketing · CRM Automation · Google Ads · Python · SQL · VBA · Lead Scoring · Sales Enablement · Risk Analytics · Vibe Coding</p>
-  </div>
-  <div>
-    <h2 class="font-bold border-b border-gray-400 text-base mb-1">Certifications</h2>
-    <div class="flex justify-between text-gray-800">
-      <span>Python for Everybody – Coursera</span>
-      <span>SQL for Data Science – Coursera</span>
-      <span>Excel for Business – Coursera</span>
-    </div>
-  </div>
+<div class="entry">
+<div class="entry-head">
+<div class="org">Nanonets (Y Combinator-backed AI SaaS)</div><div class="location">Remote</div>
+</div>
+<div class="meta-row"><div class="role">Growth Team Lead</div><div class="date">Aug 2023 – May 2025</div></div>
+<ul>
+<li>Directed inbound, outbound and mid-funnel growth for AI-powered intelligent document processing and workflow automation products, managing a <b>6-member team</b> across analytics, content, marketing and SDRs.</li>
+<li>Owned the email-led conversion engine across segmentation, lead scoring, intent-based workflows, persona-specific messaging and send-time experiments; <b>doubled demo conversions</b> through sustained testing.</li>
+<li>Defined product-qualified lead signals and sales handoff workflows, connecting product intent and engagement to lead scoring, routing, nurture and SDR follow-up.</li>
+<li>Configured HubSpot CRM pipelines, lead-scoring models, contact enrichment and nurture automation to strengthen MQL-to-SQL conversion and sales follow-through.</li>
+<li>Optimised Google Ads across high-intent keywords, balancing lead quality with acquisition efficiency.</li>
+<li>Introduced an automated SDR call-assist workflow that surfaced each prospect’s journey and relevant product context, helping reps deliver more informed sales conversations.</li>
+<li>Ran SEO and organic content programmes across blogs and product pages, alongside outbound email and LinkedIn campaigns for defined ICP segments.</li>
+<li>Applied SQL, Python, HubSpot and LLM workflows to analyse funnel performance, automate repetitive operations and streamline marketing-to-sales handoffs.</li>
+<li>Extended successful experiments through ongoing iteration with product, sales and data teams, sustaining conversion improvements over time.</li>
+</ul>
+</div>
+<div class="page-no">1 / 2</div>
 </section>
-
-
-  <!-- Leadership & Interests -->
-  <section>
-    <h2 class="font-bold border-b border-gray-400 text-base mb-1">Leadership & Interests</h2>
-    <div class="grid grid-cols-3 gap-3">
-      <div>
-        <p class="font-semibold">Head – Show Management, Techkriti IIT K</p>
-        <p>Led 4-tier team of 98 for 4-day fest with 40K+ footfall and 12K aptitude test takers across 22 cities.</p>
-      </div>
-      <div>
-        <p class="font-semibold">Coordinator – Chess Club, IIT Kanpur</p>
-        <p>FIDE-rated player (1552), led IITK Chess Team at Inter-IIT Championships (2016–17) and Udghosh'15.</p>
-      </div>
-      <div>
-        <p class="font-semibold">Personal Interests</p>
-        <p>Avid <strong>football fan</strong>, passionate <strong>cook</strong>, and dedicated <strong>anime enthusiast</strong>.</p>
-      </div>
-    </div>
-  </section>
-
+<section class="page">
+<header>
+<h1>KESHAV VERMA</h1>
+<p class="tagline">Growth Leader | B2B SaaS · AI · GTM · Revenue &amp; Funnel Growth</p>
+<p class="contact">Gurugram, India  •  +91-9453 99 4643  •  keshavverma310896@gmail.com<br/>
+  LinkedIn: <a href="https://www.linkedin.com/in/keshav-verma-iitk/">linkedin.com/in/keshav-verma-iitk/</a>  •  Portfolio: <a href="https://keshav-verma.vercel.app/">keshav-verma.vercel.app</a></p>
+</header>
+<h2>Experience</h2>
+<div class="entry">
+<div class="entry-head">
+<div class="org">Indus Insights</div><div class="location">Gurugram, India</div>
+</div>
+<div class="meta-row"><div class="role">Senior Associate Consultant</div><div class="date">Aug 2020 – Aug 2023</div></div>
+<ul>
+<li>Owned analytical workstreams for financial-services clients across credit policy, loan performance, customer lifecycle analytics, segmentation and portfolio strategy.</li>
+<li>Presented analytical findings, clarified business requirements and discussed recommendations directly with US-based client stakeholders.</li>
+<li>Developed an IRB-compliant credit-risk model aligned with EBA/Basel guidelines and built Python-based automation for credit-line increase decisions.</li>
+<li>Designed data-led policy optimisation and mitigation frameworks that generated <b>$7M+ in projected bad-debt savings</b> for a client.</li>
+<li>Created dashboards and analytical tools for portfolio monitoring, churn analysis and customer segmentation; translated findings into recommendations for senior client stakeholders.</li>
+</ul>
+</div>
+<div class="entry">
+<div class="entry-head"><div class="org">Mitsubishi Hitachi Power Systems</div><div class="location">Japan</div></div>
+<div class="meta-row"><div class="role">Control Systems Intern</div><div class="date">May 2019 – Jun 2019</div></div>
+<ul>
+<li>Designed and tested control logic for industrial turbine operations; supported control-panel quality checks and researched secure cloud protocols for industrial data transfer.</li>
+</ul>
+</div>
+<h2>Education</h2>
+<div class="entry education">
+<div class="entry-head"><div class="org">Indian Institute of Technology (IIT) Kanpur</div><div class="location">Kanpur, India</div></div>
+<div class="meta-row"><div><b>B.Tech., Electrical Engineering and Mechanical Engineering</b></div><div class="date">Jun 2015 – May 2020</div></div>
+</div>
+<h2>Leadership &amp; Activities</h2>
+<div class="entry">
+<div class="entry-head"><div class="org">Techkriti, IIT Kanpur</div><div class="location">Kanpur, India</div></div>
+<div class="meta-row"><div class="role">Head – Show Management</div><div class="date">2017 – 2018</div></div>
+<ul>
+<li>Directed 36 associates in delivering IIT Kanpur’s technical festival for 40,000 attendees, coordinating 32 events and three professional shows.</li>
+<li>Coordinated logistics across 22 cities for an aptitude examination and administered a ₹65 lakh operating budget covering vendors, security and technical infrastructure.</li>
+</ul>
+</div>
+<div class="entry">
+<div class="entry-head"><div class="org">IIT Kanpur</div><div class="location">Kanpur, India</div></div>
+<div class="meta-row"><div class="role">Student Guide | Chess Club Coordinator &amp; Team Representative</div><div class="date">2016 – 2018</div></div>
+<ul>
+<li>Mentored junior students through the student counselling programme and coordinated Chess Club activities; represented IIT Kanpur at Inter-IIT chess tournaments.</li>
+<li>FIDE-rated chess player; secured second place in the Udghosh Chess Tournament (2018).</li>
+</ul>
+</div>
+<h2>Skills</h2>
+<div class="skills">
+<p><span class="label">Growth &amp; GTM:</span> B2B SaaS Growth, Product-Led Growth (PLG), Self-Serve Funnel Ownership, Go-to-Market Strategy, Demand Generation, Full-Funnel Marketing, Paid Acquisition, Google Ads, SEO, Content Marketing, LinkedIn Campaigns, Lead Generation, Funnel Optimisation, Conversion Rate Optimisation, Experimentation.</p>
+<p><span class="label">Product &amp; Marketing Operations:</span> Website Conversion, Trial &amp; Onboarding, Activation, Product Analytics, Funnel Event Tracking, Product-Qualified Leads (PQLs), HubSpot CRM, Lead Scoring, Contact Enrichment, Lifecycle Automation, SDR Enablement.</p>
+<p><span class="label">AI, Data &amp; Analytics:</span> AI-enabled Growth Operations, LLM Workflows, AI-assisted Analysis &amp; Automation, SQL, Python, Funnel Analytics, Cohort/Segmentation Analysis, Excel, Tableau, R, VBA.</p>
+</div>
+<h2>Certifications &amp; Interests</h2>
+<p><span class="label">Certifications:</span> Python for Everybody (Coursera); SQL for Data Science (Coursera); Excel for Business (Coursera); HackerRank SQL Intermediate and R Intermediate.</p>
+<p><span class="label">Interests:</span> Chess, football, AI and emerging technology, investing, cooking and building software tools.</p>
+<div class="page-no">2 / 2</div>
+</section>
 </body>
 </html>
